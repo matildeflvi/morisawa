@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  color: #0a0a0a;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+}
+
+/* parte de arriba */
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 40px;
+  border-bottom: 1px solid #0a0a0a;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* john maeda heroe siempre */
+
+.maeda-intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #0a0a0a;
+}
+
+.maeda-texto {
+  padding: 60px 40px;
+  border-right: 1px solid #0a0a0a;
+}
+
+.maeda-texto h1 {
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 0.9;
+  letter-spacing: -4px;
+  text-transform: uppercase;
+}
+
+.maeda-texto .subtitle {
+  margin-top: 24px;
+  font-size: 13px;
+  line-height: 1.7;
+  max-width: 380px;
+  color: #444;
+}
+
+.maeda-imagenes {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.maeda-fotos {
+  display: flex;
+  gap: 12px;
+}
+
+.maeda-fotos .foto {
+  width: 50%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.cita-maeda {
+  background: #0a0a0a;
+  color: #fff;
+  padding: 20px 24px;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+/* morisawa */
+
+.morisawa-section {
+  padding: 48px 40px;
+  border-bottom: 1px solid #0a0a0a;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.morisawa-titulo {
+  font-size: 72px;
+  font-weight: 900;
+  letter-spacing: -3px;
+  line-height: 1;
+  color: #d42b2b;
+  text-transform: uppercase;
+}
+
+.morisawa-texto {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.3;
+  max-width: 600px;
+  text-transform: uppercase;
+}
+
+/* header*/
+
+.johnheader {
+  border-bottom: 1px solid #0a0a0a;
+}
+
+.johnheader img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  display: block;
+}
+
+/* las dos divisiones */
+
+.obra-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #0a0a0a;
+}
+
+.obra-bloque {
+  padding: 64px 48px;
+}
+
+.obra-texto {
+  border-right: 1px solid #0a0a0a;
+}
+
+.obra-etiqueta {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #d42b2b;
+  margin-bottom: 16px;
+}
+
+.obra-bloque h2 {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.obra-bloque p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 14px;
+}
+
+.imagen-central {
+  width: 75%;
+  max-width: 420px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ejemplos fotos  */
+
+.galeria-obras {
+  border-bottom: 1px solid #0a0a0a;
+}
+
+.imagen-obra {
+  border-bottom: 1px solid #0a0a0a;
+  background: #f5f5f5;
+}
+
+.imagen-final {
+  border-bottom: none;
+}
+
+.imagen-obra img {
+  width: 100%;
+  display: block;
+}
+
+/* principios */
+
+.manovich-header {
+  padding: 48px 40px 0;
+}
+
+.manovich-header h2 {
+  font-size: 56px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  line-height: 1;
+}
+
+.manovich-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border-top: 1px solid #0a0a0a;
+  border-bottom: 1px solid #0a0a0a;
+  margin-top: 32px;
+}
+
+.manovich-card {
+  padding: 32px 24px;
+  border-right: 1px solid #0a0a0a;
+}
+
+.manovich-card h3 {
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  color: #d42b2b;
+}
+
+.manovich-card p {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* diagrama */
+
+.diagrama-section {
+  padding: 48px 40px;
+  border-bottom: 1px solid #0a0a0a;
+  text-align: center;
+}
+
+.diagrama-section h2 {
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin-bottom: 32px;
+}
+
+.diagrama-section img {
+  width: 65%;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* reflexion */
+
+.cierre-final {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  border-bottom: 1px solid #0a0a0a;
+}
+
+.cierre-etiqueta {
+  padding: 48px 40px;
+  border-right: 1px solid #0a0a0a;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #d42b2b;
+}
+
+.cierre-texto {
+  padding: 48px 40px;
+}
+
+.cierre-texto h2 {
+  font-size: 42px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: -2px;
+  margin-bottom: 28px;
+}
+
+.cierre-texto p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #333;
+  margin-bottom: 18px;
+  max-width: 760px;
+}
+
+/* foooooteeer */
+
+footer {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+footer h2 {
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+footer a {
+  display: block;
+  font-size: 13px;
+  color: #0a0a0a;
+  text-decoration: none;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+
+footer a:hover {
+  color: #d42b2b;
+}
+
+footer .ref-text {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #555;
+}

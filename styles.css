@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+
+/* hecho por mi:
+estructura general, colores !! (en https://htmlcolorcodes.com/es/), tipografías (google fonts jeje) , composición visual (lo aprendí en mi opr) y organización del contenido (básicamente las clases) */
 
 * {
   margin: 0;
@@ -27,13 +32,16 @@ body {
   text-transform: uppercase;
 }
 
-/* john maeda heroe siempre */
+/* john maeda intro + texto (h1 y subtitulos) */
 
 .maeda-intro {
   display: grid;
   grid-template-columns: 1fr 1fr;
   border-bottom: 1px solid #0a0a0a;
 }
+
+/* asistencia de la IA:
+  apoyo en el grid (no me estaba quedando bien lol) y distribución de las columnas */
 
 .maeda-texto {
   padding: 60px 40px;
@@ -56,6 +64,10 @@ body {
   color: #444;
 }
 
+/* las fotos de maeda */
+/* asistencia de la IA:
+  ayuda para ordenar verticalmente las imágenes y cita */ */
+
 .maeda-imagenes {
   padding: 40px;
   display: flex;
@@ -74,6 +86,9 @@ body {
   object-fit: cover;
   filter: grayscale(100%);
 }
+
+ /* asistencia IA:
+  ajuste proporcional de imágenes */
 
 .cita-maeda {
   background: #0a0a0a;
@@ -126,6 +141,8 @@ body {
 }
 
 /* las dos divisiones */
+/* asistencia de la IA:
+  apoyo en la diagramación de columnas (en verdad la parte de columnas me apoyé harto con la ia porque no me acordaba cómo era) */
 
 .obra-info {
   display: grid;
@@ -205,6 +222,8 @@ body {
   letter-spacing: -2px;
   line-height: 1;
 }
+/* asistencia IA:
+  organización de las tarjetas */
 
 .manovich-grid {
   display: grid;
